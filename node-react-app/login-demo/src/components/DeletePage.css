@@ -1,0 +1,56 @@
+/* src/components/DeletePage.css */
+
+.delete-page {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .delete-page h2 {
+    color: #0073e6;
+    margin-bottom: 20px;
+  }
+  
+  .delete-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .delete-page button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .delete-page button:hover {
+    background-color: #c9302c;
+  }
+  
+  .delete-page .message {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .delete-page .error {
+    color: #e63946;
+  }
+  
+  .delete-page .success {
+    color: #38b000;
+  }
+  
